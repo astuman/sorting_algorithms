@@ -27,6 +27,7 @@ void insertion_sort_list(listint_t **list)
  *@list: node list
  *Return: return a pointer to a node which was enter it
  */
+
 listint_t *swap_node(listint_t *node, listint_t **list)
 {
 	listint_t *back = node->prev, *current = node;
